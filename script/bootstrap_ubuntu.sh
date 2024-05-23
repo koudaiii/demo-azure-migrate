@@ -8,6 +8,9 @@ VM_NAME="myVM$PREFIX"
 GITHUB_USERNAME="koudaiii"
 REPO_NAME="demo-azure-migrate"
 
+# az login
+az login
+
 # Create a resource group
 az group create --name $RESOURCE_GROUP --location $LOCATION
 
