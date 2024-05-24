@@ -12,6 +12,10 @@
 $ script/bootstrap.sh
 ```
 
+## Set up VPN
+
+https://learn.microsoft.com/ja-jp/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal
+
 ## Self-signed root certificate
 
 ```console
@@ -42,7 +46,6 @@ $ openssl x509 -req -days 365 -in ~/.ssh/koudaiiiReq.pem -CA ~/.ssh/caCert.pem -
 # Verify
 $ openssl verify -CAfile ~/.ssh/caCert.pem ~/.ssh/caCert.pem ~/.ssh/koudaiiiCert.pem
 ```
-
 
 ## Install Azure Migrate Appliance
 
