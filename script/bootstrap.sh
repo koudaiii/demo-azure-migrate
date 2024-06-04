@@ -33,6 +33,7 @@ az vm create \
   --admin-password $PASSWORD \
   --vnet-name myVnet \
   --subnet mySubnet \
+  --size Standard_DS3_v2 \
   --generate-ssh-keys
 
 # Get the private IP address of the VM

@@ -49,4 +49,16 @@ $ openssl verify -CAfile ~/.ssh/caCert.pem ~/.ssh/caCert.pem ~/.ssh/koudaiiiCert
 
 ## Install Azure Migrate Appliance
 
-ref https://learn.microsoft.com/ja-jp/azure/migrate/tutorial-discover-physical
+ref https://learn.microsoft.com/ja-jp/azure/migrate/tutorial-discover-physical#set-up-the-appliance
+
+> ### アプライアンスを設定する
+>
+> Azure Migrate アプライアンスによって、サーバー検出が実行され、サーバーの構成とパフォーマンスのメタデータが Azure Migrate に送信されます。 このアプライアンスは、プロジェクトからダウンロード可能な PowerShell スクリプトを実行することで設定できます。
+>
+> アプライアンスを設定するには、次の手順を実行します。
+>
+> 1. ポータルで、アプライアンス名を指定してプロジェクト キーを生成します。
+> 1. Azure portal から、Azure Migrate インストーラー スクリプトが含まれた ZIP ファイルをダウンロードします。
+> 1. ZIP ファイルの内容を抽出します。 管理特権で PowerShell コンソールを起動します。
+> 1. PowerShell スクリプトを実行して、アプライアンス構成マネージャーを起動します。
+> 1. 初回のアプライアンス構成を行い、プロジェクト キーを使用してプロジェクトに登録します。
